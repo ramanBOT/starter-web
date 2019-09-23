@@ -6,7 +6,7 @@ def getPairsCount(i_List, listLenght, i_Sum):
             if i_List[i] + i_List[j] == i_Sum:
                 dct.add(1,'i_List[i],i_List[j]')
                 print(dct)
-                return "Found"
+                return "Found Pair"
 
 if __name__ == "__main__":
     i_List=[1,2,4,5,67,7]
